@@ -1,0 +1,580 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: "Manrope";
+}
+#container{
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+.sec-head{
+    font-size: calc(4vw + 10px);
+    font-weight: bolder;
+    font-family: "Manrope";
+    color: #292929;
+}
+#scroll_top{
+    position: fixed;
+    top: 90vh;
+    right: 10px;
+    z-index: 5;
+    
+}
+#scroll_top a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.VMA{
+    margin-top: 2%;
+    width: 100%;
+     
+}
+.VM{
+    width: 100%;
+     
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 1%;
+}
+.Vision{
+    margin-top: 2%;
+    background-color: #F1F8FF;
+    height: 300px;
+    padding: 10px 50px;
+    position: relative;
+}
+#fold{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+}
+
+
+.Vision #header h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Vision #Content h4{
+    margin: 0;
+    font-weight: 500;
+}
+.Mission{
+    margin-top: 2%;
+     
+    background-color: #FFFFFF;
+    padding: 10px 50px;
+    border:4px solid #F1F8FF;
+   
+}
+.Mission #header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.Mission #Content h4{
+    margin: 0;
+    font-weight: 500;
+}
+
+.About{
+    /* margin-top: 2%; */
+    background-color: #dfeefd;
+    padding: 0px 100px 0px 100px;
+    height: 300px;
+    border:4px solid #dfeefd;
+    font-family: "Manrope";
+}
+.About #header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.About #Content h4{
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+.About:first-child{
+    grid-column: 1/-1;
+}
+
+ 
+  
+  .navbar {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color:transparent;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .navbar .logo img{
+    height: 70px;
+  }
+
+  .navbar .logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Manrope";
+  }
+  
+  .nav-links .btn {
+    padding: 5px 15px;
+    background-color: white;
+    color: #4b91ce;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Manrope";
+  }
+  
+ 
+  .Landing{
+    width: 100%;
+    aspect-ratio: 100/46;
+}
+.Home{
+    width: 100%;
+    aspect-ratio: 100/46;
+    background-image: url(Landing.svg);
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    background-size: contain;
+}
+.Frame{
+    display: flex;
+    width: 100%;
+    background-color: #6CAFAB;
+    height: 100svh;
+    margin-top: 3%;
+    color: aliceblue;
+    align-items: center;
+    border-radius: 18px;
+    justify-content: space-between;
+}
+.Text{
+    margin-left: 4%;
+    width: 45%;
+}
+.Text h1{
+    font-size:calc(0.7vw + 10px);
+    font-family: "Manrope";
+}
+.Image{
+    background-position: right;
+    margin-right: 4%;
+    width: 40%;
+    height: 90%;
+    background-size: contain;
+    background-image: url("Group\ 17.svg");
+    background-repeat: no-repeat;
+}
+
+.Pic h1{
+    font-size:calc(4vw + 10px);
+    font-family: "Manrope";
+    color: #292929;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px;
+    margin-top: 3%;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    animation: slide 30s infinite linear;
+    list-style: none;
+}
+
+.slider li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.slider img {
+    max-width: fit-content !important;
+    height: auto !important;
+    border-radius: 18px;
+}
+.founder h1{
+    font-size:calc(4vw + 10px);
+    font-family: "Manrope";
+    color: #292929;
+}
+.card1 p,h3{
+    font-size:calc(0.1vw + 10px);
+    font-family: "Manrope";
+}
+
+
+
+
+  .main-container {
+    width: 100%;
+    
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card1 {
+    flex: 1;
+    max-width: 24%; /* Ensures 4 items fit in the second row */
+    text-align: center;
+    background-color: #fff;
+
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .card1 img {
+    width: 100%;
+    aspect-ratio: 1; /* Makes it square */
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  .info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #007acc; /* Blue text for designation */
+  }
+  
+  .info p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-wrap: wrap;
+    }
+    .Text{
+        width: 95%;
+    }
+    .Frame{
+        flex-direction: column-reverse;
+        height: 40svh;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .card1 {
+      max-width: 48%; /* Two items per row on smaller screens */
+    }
+
+
+    #scroll_top a{
+        
+        font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card1 {
+      max-width: 100%; /* Single column on small screens */
+    }
+  }
+  /* Keyframe for seamless loop */
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}  
+  .card{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.contact{
+    margin-top: 30px;
+}
+.card_left{
+    height:400px;
+    width: 35%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 3px solid #3382A0;
+    margin-right: 10px;
+}
+
+.card_right{
+    height:500px;
+    width: 600px;
+    padding: 20px 50px;
+   position: relative;
+   background-image: url('Gradient.svg');
+   background-size: cover;
+   margin-right: 10px;
+   
+}
+.inputs-section input
+{
+    width: 45%;
+    height: 50px;
+    border: 0px;
+    border-bottom: 2px solid #3382A0;
+    background-color: transparent;
+    color: white;
+}
+.inputs-section input::placeholder{
+    color: white;
+}
+
+.message::placeholder{
+    color: white;
+}
+.card-head
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card_sub_head{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.phn-no
+{
+    text-decoration: none;
+    color: black;
+}
+
+.inputs-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.message{
+    width: 591px;
+    height: 50px;
+    margin-top: 20px;
+    border: 0px;
+    border-bottom: 2px solid #3382A0;
+    background-color: transparent;
+    color: white;
+}
+.message:focus{
+    
+    outline: none;
+}
+
+.inputs-section input:focus{
+    
+    outline: none;
+}
+.sub-btn{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #0245a3;
+    font-weight: 600;
+    transition: 0.75s;
+}
+
+.sub-btn:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.285);
+    cursor: pointer;
+}
+.card_right h3{
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width:1250px) {
+    .card_right{
+        margin-top: 20px;
+    }
+}
+@media (max-width:730px) {
+     
+    .card_left{
+        height:250px;
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .item{
+        margin-left: 10px;
+    }
+    .card_right{
+        height:500px;
+        width: 100%;
+        padding: 10px 20px;
+       
+       
+        
+       margin-right: 0px;
+    }
+
+    .message{
+        width: 99%;
+        height: 50px;
+        
+    }
+
+    .card{
+         
+        display:flex;
+        justify-content: center;
+        
+    }
+
+    .VM{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .About #Content h4{
+        font-size: calc(0.5vw + 10px);
+        
+    }
+    .Mission #Content h4{
+        font-size: calc(0.5vw + 10px);
+        
+    }
+    .Vision #Content h4{
+        font-size: calc(0.5vw + 10px);
+        
+    }
+
+    .About{
+        padding: 0px 15px 15px 15px;
+        height: cover;
+        
+
+    }
+
+    .nav-links {
+        flex-direction: column;
+        display: none; /* Hidden by default */
+        background-color: rgb(54, 94, 255);
+        position: absolute;
+        top: 35px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .nav-links.show {
+        display: flex; /* Displayed when toggled */
+      }
+    
+      .navbar {
+        position: relative;
+      }
+    
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        background-image: url('Group\ 36.svg');
+        background-size: cover;
+      }
+    
+      .nav-links li {
+        margin: 10px 0;
+         
+      }
+
+      .navbar .logo img{
+        height: 30px;
+      }
+
+      .navbar{
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 5px;
+        padding: 0;
+      }
+    
+      .navbar .logo h4{
+         display: none;
+      }
+
+      .Home{
+        padding-top: 3px;
+      }
+}
+
+/* ---------mission */
+
